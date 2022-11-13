@@ -1,0 +1,10 @@
+classdef Point2D < handle
+    properties
+        x
+        y
+        r
+
+    end
+    methods
+
+        function obj = Point2D(x0, y0);
